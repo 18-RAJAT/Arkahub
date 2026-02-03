@@ -1,0 +1,2 @@
+const config={baseUrl:process.env.ENERGYGRID_BASE_URL||"http://localhost:3000",path:"/device/real/query",token:process.env.ENERGYGRID_TOKEN||"interview_token_123",batchSize:10,minIntervalMs:1050,maxAttempts:6,baseBackoffMs:800,maxBackoffMs:8000,outputFile:process.env.ENERGYGRID_OUTPUT||"client/output.json"}
+module.exports={config}
